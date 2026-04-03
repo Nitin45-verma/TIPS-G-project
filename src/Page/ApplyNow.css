@@ -1,0 +1,219 @@
+body {
+    background-color: #f4f7fa;
+    font-family: 'Inter', sans-serif;
+    color: #334155;
+}
+
+.page-wrapper {
+    min-height: 100vh;
+    padding: 3rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-container {
+    max-width: 1050px;
+    width: 100%;
+}
+
+/* Custom Logo Styling */
+.brand-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.brand-name {
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: #b91c1c;
+    /* Dark Red */
+    letter-spacing: -1px;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.brand-icon {
+    color: #dc2626;
+    font-size: 2rem;
+}
+
+.brand-tagline {
+    font-size: 0.55rem;
+    font-weight: 700;
+    color: #1d4ed8;
+    /* Blue */
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-top: -0.2rem;
+}
+
+/* Typography */
+.main-title {
+    color: #0f172a;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.sub-title {
+    color: #64748b;
+    font-size: 1rem;
+    margin-bottom: 2.5rem;
+}
+
+/* Cards */
+.form-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+    padding: 2rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+}
+
+.features-card {
+    background-color: #f0fdf4;
+    /* Light greenish background */
+    border-radius: 12px;
+    border: none;
+    padding: 2rem;
+}
+
+/* Form Elements */
+.section-header {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #1e293b;
+    margin-bottom: 1.25rem;
+    margin-top: 1.5rem;
+}
+
+.section-header:first-child {
+    margin-top: 0;
+}
+
+.custom-label {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #334155;
+    margin-bottom: 0.4rem;
+}
+
+.custom-input {
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    padding: 0.6rem 0.75rem;
+    font-size: 0.9rem;
+    color: #334155;
+    transition: all 0.2s;
+}
+
+.custom-input::placeholder {
+    color: #94a3b8;
+}
+
+.custom-input:focus {
+    border-color: #60a5fa;
+    box-shadow: 0 0 0 3px rgba(96, 165, 250, 0.2);
+    outline: none;
+}
+
+/* Course Checkboxes */
+.course-box {
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+    padding: 0.8rem;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.2s, border-color 0.2s;
+}
+
+.course-box:hover {
+    background-color: #f8fafc;
+    border-color: #cbd5e1;
+}
+
+.course-box .form-check-input {
+    margin-top: 0.15rem;
+    cursor: pointer;
+}
+
+.course-box .form-check-label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #1e293b;
+    cursor: pointer;
+    line-height: 1.4;
+    text-transform: uppercase;
+}
+
+/* Agreement Box */
+.agreement-box {
+    background-color: #f0f7ff;
+    border: 1px solid #e0eaff;
+    border-radius: 6px;
+    padding: 1rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.agreement-box .form-check-label {
+    font-size: 0.85rem;
+    color: #475569;
+}
+
+/* Buttons */
+.btn-submit {
+    background-color: #2563eb;
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 0.75rem;
+    border-radius: 6px;
+    border: none;
+    width: 100%;
+    transition: background-color 0.2s;
+}
+
+.btn-submit:hover {
+    background-color: #1d4ed8;
+}
+
+/* Feature List */
+.feature-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.feature-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+    gap: 0.75rem;
+}
+
+.feature-icon {
+    color: #22c55e;
+    /* Green checkmark */
+    font-size: 1.1rem;
+    margin-top: 0.1rem;
+}
+
+.feature-text {
+    color: #475569;
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+.footer-text {
+    font-size: 0.75rem;
+    color: #94a3b8;
+    margin-top: 1.5rem;
+}

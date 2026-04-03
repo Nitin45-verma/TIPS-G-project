@@ -1,0 +1,34 @@
+.gallery{
+    background: linear-gradient(#1b42c072,#2446b756), url(https://png.pngtree.com/background/20230416/original/pngtree-website-technology-line-dark-background-picture-image_2443641.jpg);
+    height: 300px;
+}
+.gallerybutton{
+    border: 1px solid white;
+    background-color: rgba(0, 213, 255, 0.479);
+    border-radius: 10px;
+}
+.gallerybutton:hover{
+    background-color: rgba(0, 0, 0, 0.224);
+    color: white    ;
+}
+.galleryimg{
+    border-radius: 20px;
+    height: 220px;
+    width: 100% ;
+    overflow: hidden;
+}
+
+.gallery1{
+    position: relative;
+}
+.gallery11{
+    position: absolute;
+    top: 220px;
+    z-index: 1;
+    background: linear-gradient( rgba(255, 255, 255, 0.055) , rgba(0, 0, 0, 0.712));
+}
+.gallery1:hover .gallery11{
+    top: 185px;
+    left: 10px;
+    width: 100%;
+}

@@ -1,0 +1,7 @@
+.card-text{
+    color: #b8b7b7 !important;
+}
+.card-text:hover{
+    color: #fff !important;
+    cursor: pointer;
+}

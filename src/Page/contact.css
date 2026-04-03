@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+    
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #f8fafc;
+      color: #334155;
+    }
+
+    /* Gradients */
+    .bg-gradient-header {
+      background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+      position: relative;
+      overflow: hidden;
+    }
+    .bg-gradient-footer {
+      background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%);
+    }
+
+    .text-gradient {
+      background: linear-gradient(to right, #f472b6, #93c5fd);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-weight: bold;
+    }
+
+    /* Layout Tweaks */
+    .overlap-cards {
+      margin-top: -60px;
+      position: relative;
+      z-index: 10;
+    }
+
+    /* Icon Boxes */
+    .icon-box-lg {
+      width: 50px;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 12px;
+      font-size: 24px;
+      margin: 0 auto 15px;
+    }
+    .bg-blue-light { background-color: #eff6ff; color: #3b82f6; }
+    .bg-red-light { background-color: #fef2f2; color: #ef4444; }
+    .bg-green-light { background-color: #f0fdf4; color: #22c55e; }
+
+    /* Custom Badges */
+    .badge-soft-light {
+      background-color: rgba(255, 255, 255, 0.2);
+      color: white;
+      padding: 6px 16px;
+      border-radius: 20px;
+      font-weight: 500;
+      letter-spacing: 0.5px;
+    }
+    .badge-soft-primary {
+      background-color: #eff6ff;
+      color: #3b82f6;
+      padding: 6px 16px;
+      border-radius: 20px;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      font-size: 0.8rem;
+    }
+    .badge-status {
+      font-size: 0.65rem;
+      padding: 3px 8px;
+      border-radius: 4px;
+      background-color: #22c55e;
+      color: white;
+      margin-left: 8px;
+      vertical-align: middle;
+    }
+
+    /* Image Frame Effect */
+    .image-frame-container {
+      position: relative;
+      padding: 0 20px 20px 0;
+      height: 100%;
+    }
+    .image-frame-bg {
+      position: absolute;
+      top: 20px;
+      right: 0;
+      bottom: 0;
+      left: 20px;
+      background-color: #f59e0b; /* Orange backdrop */
+      border-radius: 24px;
+      z-index: 0;
+    }
+    .image-frame-img {
+      position: relative;
+      z-index: 1;
+      border-radius: 24px;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      min-height: 400px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    }
+
+    /* FAQ Styles */
+    .faq-card {
+      border: 1px solid #e2e8f0;
+      transition: all 0.2s ease-in-out;
+      cursor: pointer;
+    }
+    .faq-card:hover {
+      border-color: #cbd5e1;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+    }
+    .faq-card.active {
+      border-color: #3b82f6;
+      box-shadow: 0 4px 15px -3px rgba(59, 130, 246, 0.15);
+    }
+    .faq-icon-wrapper {
+      width: 36px;
+      height: 36px;
+      background-color: #eff6ff;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #3b82f6;
+    }
+    .faq-badge {
+      font-size: 0.7rem;
+      padding: 2px 10px;
+      border-radius: 12px;
+      font-weight: 600;
+    }
+    .badge-course { background-color: #fae8ff; color: #c026d3; }
+    .badge-general { background-color: #f0fdf4; color: #16a34a; }
+
+    /* Filter Buttons */
+    .btn-filter {
+      border-radius: 20px;
+      padding: 6px 20px;
+      font-weight: 500;
+      border: none;
+      background-color: #f1f5f9;
+      color: #64748b;
+      transition: all 0.2s;
+    }
+    .btn-filter.active {
+      background-color: #3b82f6;
+      color: white;
+    }
+    .btn-filter:hover:not(.active) {
+      background-color: #e2e8f0;
+    }
+
+    /* Location Cards */
+    .location-card {
+      background-color: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      transition: transform 0.3s;
+      height: 100%;
+    }
+    .location-card:hover {
+      transform: translateY(-5px);
+      background-color: rgba(255, 255, 255, 0.08);
+    }
+    .loc-icon-box {
+      width: 40px;
+      height: 40px;
+      background-color: #3b82f6;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.2rem;
+    }
+    .loc-text {
+      font-size: 0.85rem;
+      color: #cbd5e1;
+      margin-bottom: 0.25rem;
+    }
+
+    /* Floating Action Button */
+    .fab-button {
+      position: fixed;
+      bottom: 30px;
+      right: 30px;
+      background-color: #ef4444;
+      color: white;
+      padding: 10px 24px;
+      border-radius: 30px;
+      font-weight: 600;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      box-shadow: 0 4px 15px rgba(239, 68, 68, 0.4);
+      z-index: 1000;
+      transition: background-color 0.2s;
+    }
+    .fab-button:hover {
+      background-color: #dc2626;
+      color: white;
+    }
+    
+    /* Utility tweaks */
+    .form-control {
+      padding: 0.75rem 1rem;
+      border-radius: 8px;
+      border: 1px solid #cbd5e1;
+    }
+    .form-control:focus {
+      border-color: #3b82f6;
+      box-shadow: 0 0 0 0.25rem rgba(59, 130, 246, 0.1);
+    }

@@ -1,0 +1,242 @@
+
+.home2{
+    background: linear-gradient(#1b41c0cb,#2446b7c9), url(https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&h=600&fit=crop);
+} 
+.topbtn{
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    border: 2px solid transparent;
+}
+.topbtn:hover{
+    transform: scale(105%);
+    border: 2px solid black;
+
+}
+
+.spacility{
+    display: flex;
+    gap: 50px;
+    
+    
+}
+.circle:hover{
+    transform: scale(105%);
+    
+}
+
+.circle0{
+    width: 75px;
+    height: 75px;
+    background-color: rgba(0, 0, 255, 0.354);
+    border-radius: 50%;
+    margin-left: 35%;
+    border-bottom: 3px solid blue;
+
+}
+.circle1{
+    width: 75px;
+    height: 75px;
+    background-color: rgba(172, 255, 47, 0.4);
+    border-radius: 50%;
+    margin-left: 35%;
+    border-bottom: 3px solid green;
+}
+.circle2{
+    width: 75px;
+    height: 75px;
+    background-color: rgba(221, 160, 221, 0.568);
+    border-radius: 50%;
+    margin-left: 35%;
+    border-bottom: 3px solid purple;
+}
+.circle3{
+    width: 75px;
+    height: 75px;
+    background-color: rgba(255, 255, 0, 0.158);
+    border-radius: 50%;
+    margin-left: 35%;
+    border-bottom: 3px solid orangered;
+}
+.tips-g{
+    width:auto ;
+    font-weight: bolder;
+    font-size: 50px; 
+}
+.fontawsome{
+    font-size: 50px;
+    display: flex;
+}
+.number{
+    
+   background-color: rgb(174, 212, 212);
+   height: 60px;
+   width: 60px;
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: x-large;
+   z-index: 1;
+}
+
+.successtory{
+    background: linear-gradient(rgba(0, 0, 0, 0.138)) ,url(https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&h=600&fit=crop);
+    height: auto;
+}
+.successtory3:hover{
+     transform: scale(110%);
+    }
+
+.Recommended{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    border-radius: 20px;
+    background: linear-gradient(to right,rgba(128, 0, 128, 0.752),rgb(255, 192, 246));
+    border: 2px solid black;
+    
+   
+
+}
+.Recommended1{
+    border: 2px solid rgba(245, 222, 179, 0.263);
+    border-radius: 20px;
+}
+.Recommended1:hover{
+    border-color: rgba(128, 0, 128, 0.823);
+    
+    
+}
+.Recommended1:hover h5{
+    color: purple;
+    
+    
+}
+
+.Recommended2{
+    border: 1px solid purple;
+    border-radius: 20px;
+    color: purple;
+    background-color: rgba(128, 0, 128, 0.084);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.question{
+    border: 1px solid rgba(128, 128, 128, 0.587);
+    height: 50px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+}
+.input{
+    width: 100%;
+    height: 200px;
+}
+.projects{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+
+.imgCard{
+    overflow: hidden;
+}
+.projectsCard:hover h5{
+    color: blue;
+}
+.projectsCard:hover img{
+    transform: scale(105%);
+   
+}
+
+.name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 30px;
+    width: 30px;
+    background: linear-gradient(blue,rgba(128, 0, 128, 0.564));
+}
+.projectsButton{
+    border: 1px solid lightgoldenrodyellow;
+    background: transparent;
+}
+.btt{
+    background-color: aqua;
+    border: none;
+    color: blue;
+    border-radius: 5px;
+    border: 2px solid transparent;
+
+}
+.btt:hover{
+    background-color: rgba(0, 0, 255, 0.247);
+    border: 2px solid blue;
+}
+.spacilityCard:hover h4{
+    color: blue;
+}
+.spacilityCard:hover{
+    box-shadow: rgba(0, 0, 0, 0.315) 2px 2px 5px 2px;
+}
+.spacilityCard:hover .spacilityCard1{
+   transform: scale(110%);
+}
+.spacilityCard1{
+    height: 50px;
+    width:  50px;
+    background-color: skyblue;
+    border-radius: 20%;
+}
+.btt1{
+    background-color: pink;
+    border: none;
+    color: red;
+    border-radius: 5px;
+    border: 2px solid transparent;
+
+}
+.btt1:hover{
+    background-color: rgba(255, 192, 203, 0.4);
+    border: 2px solid pink
+}
+.Courses{
+    width: 100%;
+    height: 35vh;
+    background: linear-gradient(to right,rgba(0, 0, 255, 0.831),rgba(128, 0, 128, 0.763),rgba(255, 0, 0, 0.521));
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    line-height: 0px;
+}
+.dropDown{
+    border: 2px solid rgba(128, 128, 128, 0.432);
+    width: 800px;
+   
+}
+.Transformbtn0{
+    border: none;
+    border-radius: 20px;
+    border: 2px solid transparent;
+}
+.Transformbtn1{
+    border: none;
+    border-radius: 20px;
+    color: red;
+    border: 2px solid transparent;
+}
+.Transformbtn0:hover{
+    transform: scale(105%);
+    border: 2px solid white;
+}
+.Transformbtn1:hover{
+    background-color: rgba(105, 8, 8, 0.219);
+    color: black;
+    border: 2px solid white;
+}

@@ -1,0 +1,20 @@
+.Scholarship{
+        background: linear-gradient(#1b41c0cb,#2446b7c9), url(https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&h=600&fit=crop);
+
+}
+.Scholarshipbutton{
+    border: 1px solid white;
+    background-color: rgba(0, 213, 255, 0.479);
+    border-radius: 10px;
+}
+.Scholarshipbutton:hover{
+    background-color: rgba(0, 0, 0, 0.224);
+    color: white    ;
+
+}
+/* App.css mein check karein */
+.card-top-border {
+  height: 5px;
+  background: linear-gradient(to right, #2563eb 50%, #dc2626 50%);
+  color: rgba(0, 200, 255, 0.279);
+}

@@ -1,0 +1,73 @@
+.home2{
+    background: linear-gradient(#1b41c0cb,#2446b7c9), url(https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&h=600&fit=crop);
+} 
+.btt{
+    background-color: aqua;
+    border: none;
+    color: blue;
+    border-radius: 5px;
+    border: 2px solid transparent;
+
+}
+.btt:hover{
+    background-color: rgba(0, 0, 255, 0.247);
+    border: 2px solid blue;
+}
+.aboutcardimg{
+    overflow: hidden;
+}
+.aboutcard:hover img{
+    transform: scale(105%);
+}
+.aboutcard:hover h5{
+    color: blue;
+}
+.journeybtn{
+    height: 30px;
+    width: 150px;
+    background-color: rgba(255, 68, 0, 0.598);
+    color: red;
+}
+.yearbtn{
+    background: linear-gradient(to right , blue,purple,red);
+    border: none;
+    height: 40px;
+    width: 60px;
+    border-radius: 10px;
+    color: white;
+}
+.journeycard{
+    display: grid;
+    justify-content: start;
+    align-items: center;
+}
+.journeycard:hover h1{
+    color: blue;
+}
+
+
+.journeyimg{
+    border-radius: 10px;
+    height: 250px;
+    width: 100%;
+    
+}
+.journeyimg:hover{
+    transform: scale(105%);
+}
+.groth{
+    background: linear-gradient(to right, rgb(1, 1, 30),blue,rgb(1, 1, 30));
+}
+.groth1:hover{
+    transform: scale(110%);
+    transition-duration: 1s;
+    color: rgba(0, 0, 255, 0.397);
+
+}
+
+.spacilityCard1{
+    height: 50px;
+    width:  50px;
+    background-color: skyblue;
+    border-radius: 20%;
+}   
