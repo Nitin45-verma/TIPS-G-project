@@ -10,10 +10,9 @@ import Courses from './Page/Courses';
 import Blog from './Page/Blog';
 import Scholarship from './Page/Scholarship';
 import Franchise from './Page/Franchise';
-import Conects from './Page/contact';
 import LoginForm from './Page/LoginForm';
 import ApplyNow from './Page/ApplyNow';
-import Contact from './Page/contact';
+import Contact from './Page/Contact';
 
 
 

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './contact.css'
+import './Contact.css'
 
 const Header = () => (
     <section className="bg-gradient-header pt-5 pb-5 pb-md-5">
