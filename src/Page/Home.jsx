@@ -438,7 +438,7 @@ const Home = () => {
 
       <div className="container">
         <div className="row g-3">
-          <div className="col-lg-4 col-md-6 col-sm-12">
+          <div className="col-lg-4 col-md-6 col-sm-12 CoursesCard" >
             <div className="card" style={{ width: "18rem" }}>
               <div className="Courses " >
                 <div className="fs-1 text-center "><i className="fa-solid fa-user-graduate" ></i></div>
@@ -456,7 +456,7 @@ const Home = () => {
             </div>
           </div>
 
-          <div className="col-lg-4 col-md-6 col-sm-12">
+          <div className="col-lg-4 col-md-6 col-sm-12 CoursesCard">
             <div className="card" style={{ width: "18rem" }}>
               <div className="Courses ">
                 <div className="fs-1 text-center "><i className="fa-solid fa-user-graduate" ></i></div>
@@ -474,7 +474,7 @@ const Home = () => {
             </div>
           </div>
 
-          <div className="col-lg-4 col-md-6 col-sm-12">
+          <div className="col-lg-4 col-md-6 col-sm-12 CoursesCard">
             <div className="card" style={{ width: "18rem" }}>
               <div className="Courses ">
                 <div className="fs-1 text-center "><i className="fa-solid fa-user-graduate" ></i></div>
@@ -493,7 +493,7 @@ const Home = () => {
             </div>
           </div>
 
-          <div className="col-lg-4 col-md-6 col-sm-12">
+          <div className="col-lg-4 col-md-6 col-sm-12 CoursesCard">
             <div className="card" style={{ width: "18rem" }}>
               <div className="Courses ">
                 <div className="fs-1 text-center "><i className="fa-solid fa-user-graduate" ></i></div>
@@ -511,7 +511,7 @@ const Home = () => {
             </div>
           </div>
 
-          <div className="col-lg-4 col-md-6 col-sm-12">
+          <div className="col-lg-4 col-md-6 col-sm-12 CoursesCard">
             <div className="card" style={{ width: "18rem" }}>
               <div className="Courses ">
                 <div className="fs-1 text-center "><i className="fa-solid fa-user-graduate" ></i></div>
@@ -530,7 +530,7 @@ const Home = () => {
             </div>
           </div>
 
-          <div className="col-lg-4 col-md-6 col-sm-12">
+          <div className="col-lg-4 col-md-6 col-sm-12 CoursesCard">
             <div className="card" style={{ width: "18rem" }}>
               <div className="Courses ">
                 <div className="fs-1 text-center "><i className="fa-solid fa-user-graduate" ></i></div>

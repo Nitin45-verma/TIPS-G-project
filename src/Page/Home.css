@@ -145,6 +145,11 @@
 .imgCard{
     overflow: hidden;
 }
+.projectsCard{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
 .projectsCard:hover h5{
     color: blue;
 }
@@ -204,6 +209,11 @@
 .btt1:hover{
     background-color: rgba(255, 192, 203, 0.4);
     border: 2px solid pink
+}
+.CoursesCard{
+    display: grid;
+    justify-content: center;
+    align-items: center;
 }
 .Courses{
     width: 100%;
