@@ -1,5 +1,12 @@
 import React from 'react'
 import './Gallery.css';
+import Galleryimg1 from './assets/with laptopme.jpeg';
+import Galleryimg2 from './galleryimg2.jpg';
+import Galleryimg3 from './galleryimg3.jpg';
+import Galleryimg4 from './galleryimg4.jpeg';
+import Galleryimg5 from './galleryimg5.jpg';
+import Galleryimg6 from './galleryimg6.png';
+import Galleryimg8 from './galleryimg8.jpeg';
 
 
 
@@ -19,47 +26,47 @@ const Gallery = () => {
       <div className="container mt-5">
         <div className="row g-5">
           <div className="col-lg-4 col-md-6 col-sm-12">
-            <div style={{ overflow: "hidden", borderRadius: "20px" }} className='gallery1'><img src="src/assets/with laptopme.jpeg" className="img galleryimg" alt="..."
+            <div style={{ overflow: "hidden", borderRadius: "20px" }} className='gallery1'><img src={Galleryimg1} className="img galleryimg" alt="..."
             />
               <div className="gallery11 fs-4 text-white "><b>Nitin Verma</b></div></div>
           </div>
           <div className="col-lg-4 col-md-6 col-sm-12">
-            <div style={{ overflow: "hidden", borderRadius: "20px" }} className='gallery1'><img src="/src/assets/galleryimg2.jpg" className="img galleryimg" alt="..."
+            <div style={{ overflow: "hidden", borderRadius: "20px" }} className='gallery1'><img src={Galleryimg2} className="img galleryimg" alt="..."
             />
               <div className="gallery11 fs-4 text-white "><b>Campus</b></div></div>
           </div>
           <div className="col-lg-4 col-md-6 col-sm-12">
-            <div style={{ overflow: "hidden", borderRadius: "20px" }} className='gallery1'><img src="/src/assets/galleryimg3.jpg" className="img galleryimg" alt="..."
+            <div style={{ overflow: "hidden", borderRadius: "20px" }} className='gallery1'><img src={Galleryimg3} className="img galleryimg" alt="..."
             />
               <div className="gallery11 fs-4 text-white "><b>Counsellor TIPS-G</b></div></div>
           </div>
           <div className="col-lg-4 col-md-6 col-sm-12">
-            <div style={{ overflow: "hidden", borderRadius: "20px" }} className='gallery1'><img src="/src/assets/galleryimg4.jpeg" className="img galleryimg" alt="..."
+            <div style={{ overflow: "hidden", borderRadius: "20px" }} className='gallery1'><img src={Galleryimg4} className="img galleryimg" alt="..."
             />
               <div className="gallery11 fs-4 text-white "><b>Class Room</b></div></div>
           </div>
           <div className="col-lg-4 col-md-6 col-sm-12">
-            <div style={{ overflow: "hidden", borderRadius: "20px" }} className='gallery1'><img src="/src/assets/galleryimg5.jpg" className="img galleryimg" alt="..."
+            <div style={{ overflow: "hidden", borderRadius: "20px" }} className='gallery1'><img src={Galleryimg5} className="img galleryimg" alt="..."
             />
               <div className="gallery11 fs-4 text-white "><b>Campus</b></div></div>
           </div>
           <div className="col-lg-4 col-md-6 col-sm-12">
-            <div style={{ overflow: "hidden", borderRadius: "20px" }} className='gallery1'><img src="/src/assets/galleryimg6.png" className="img galleryimg" alt="..."
+            <div style={{ overflow: "hidden", borderRadius: "20px" }} className='gallery1'><img src={Galleryimg6} className="img galleryimg" alt="..."
             />
               <div className="gallery11 fs-4 text-white "><b>Class Room</b></div></div>
           </div>
           <div className="col-lg-4 col-md-6 col-sm-12">
-            <div style={{ overflow: "hidden", borderRadius: "20px" }} className='gallery1'><img src="/src/assets/galleryimg4.jpeg" className="img galleryimg" alt="..."
+            <div style={{ overflow: "hidden", borderRadius: "20px" }} className='gallery1'><img src={Galleryimg4} className="img galleryimg" alt="..."
             />
               <div className="gallery11 fs-4 text-white "><b>Campus</b></div></div>
           </div>
           <div className="col-lg-4 col-md-6 col-sm-12">
-            <div style={{ overflow: "hidden", borderRadius: "20px" }} className='gallery1'><img src="/src/assets/galleryimg8.jpeg" className="img galleryimg" alt="..."
+            <div style={{ overflow: "hidden", borderRadius: "20px" }} className='gallery1'><img src={Galleryimg8} className="img galleryimg" alt="..."
             />
               <div className="gallery11 fs-4 text-white"><b>Campus</b></div></div>
           </div>
           <div className="col-lg-4 col-md-6 col-sm-12">
-            <div style={{ overflow: "hidden", borderRadius: "20px" }} className='gallery1'><img src="/src/assets/galleryimg1.jpg" className="img galleryimg" alt="..."
+            <div style={{ overflow: "hidden", borderRadius: "20px" }} className='gallery1'><img src={Galleryimg1} className="img galleryimg" alt="..."
             />
               <div className="gallery11 fs-4 text-white "><b>Class Room</b></div></div>
           </div>
