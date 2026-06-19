@@ -37,8 +37,6 @@ const App = () => {
       <Route path='/loginform' element={<LoginForm/>}/>
       <Route path='/applynow' element={<ApplyNow/>}/>
     
-      
-
     </Routes>
     <Footer/>
     </BrowserRouter>

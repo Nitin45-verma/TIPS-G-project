@@ -1,5 +1,6 @@
 import React from 'react'
 import './About.css'
+import { aboutImg1, aboutImg2, aboutImg3, aboutImg4, aboutImg5 } from '../assets';
 
 const About = () => {
   return (
@@ -63,35 +64,35 @@ const About = () => {
         <div className="row mt-5 g-5">
 
 
-          <div className="col-lg-5 col-md-5 col-sm-12 "> <img className='journeyimg' src="src\assets\aboutimg1.jpeg" alt="" /></div>
+          <div className="col-lg-5 col-md-5 col-sm-12 "> <img className='journeyimg' src={aboutImg1} alt="" /></div>
           <div className="col-lg-7 col-md-7 col-sm-12 journeycard">
             <button className='yearbtn'>2016</button>
             <h1>Started from the Dorm Room</h1>
             <p>RNS Group of Companies started as a small dorm room IT Company in Jaipur. Faced a critical shortage of skilled and affordable manpower to drive business growth.</p>
           </div>
 
-          <div className="col-lg-5 col-md-5 col-sm-12"> <img className='journeyimg' src="src\assets\aboutimg2.jpeg" alt="" /></div>
+          <div className="col-lg-5 col-md-5 col-sm-12"> <img className='journeyimg' src={aboutImg2} alt="" /></div>
           <div className="col-lg-7 col-md-7 col-sm-12 journeycard">
             <button className='yearbtn'>2017</button>
             <h1>Solving Manpower Crisis</h1>
             <p>Launched an in-house On-Job Training program, hiring freshers and upskilling them through live projects. Created a sustainable model to produce industry-ready manpower.</p>
           </div>
 
-          <div className="col-lg-5 col-md-5 col-sm-12"> <img className='journeyimg' src="src\assets\aboutimg3.jpeg" alt="" /></div>
+          <div className="col-lg-5 col-md-5 col-sm-12"> <img className='journeyimg' src={aboutImg3} alt="" /></div>
           <div className="col-lg-7 col-md-7 col-sm-12 journeycard">
             <button className='yearbtn'>2018</button>
             <h1>Success of OJT Program</h1>
             <p>Our OJT program became a market hit! Generated 120+ skilled professionals at affordable prices. RNS Group grew from 6 to 120 employees with $1M valuation in just one year.</p>
           </div>
 
-          <div className="col-lg-5 col-md-5 col-sm-12"> <img className='journeyimg' src="src\assets\aboutimg4.jpeg" alt="" /></div>
+          <div className="col-lg-5 col-md-5 col-sm-12"> <img className='journeyimg' src={aboutImg4} alt="" /></div>
           <div className="col-lg-7 col-md-7 col-sm-12 journeycard">
             <button className='yearbtn'>2019</button>
             <h1>Birth of TIPS-G</h1>
             <p>Recognized the gap between theoretical learning and practical application. Launched TIPS-G to empower high school graduates with corporate-ready skills and 100% placement assurance.</p>
           </div>
 
-          <div className="col-lg-5 col-md-5 col-sm-12"> <img className='journeyimg' src="src\assets\aboutimg5.jpeg" alt="" /></div>
+          <div className="col-lg-5 col-md-5 col-sm-12"> <img className='journeyimg' src={aboutImg5} alt="" /></div>
           <div className="col-lg-7 col-md-7 col-sm-12 journeycard">
             <button className='yearbtn'>2024</button>
             <h1>Success of TIPS-G</h1>
